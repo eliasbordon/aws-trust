@@ -26,3 +26,4 @@ job:
 
     - name: sync bucket
       run: aws s3 sync ./file/ s3://{{ secrets.AWS_BUCKET_NAME }} --delete
+      
